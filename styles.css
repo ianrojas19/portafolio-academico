@@ -165,3 +165,42 @@ color: var(--text-muted);
 .app-footer p {
 margin: 5px 0;
 }
+
+/* Sección de Habilidades (Reto Autónomo) */
+.skills-section {
+    padding: 60px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--text-main);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skill-tag {
+    background-color: var(--bg-secondary);
+    color: var(--text-main);
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: var(--color-accent);
+    color: var(--bg-primary);
+    border-color: var(--color-accent);
+}
